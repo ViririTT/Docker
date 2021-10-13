@@ -4,7 +4,7 @@ WORKDIR /app
 COPY package*.json /app/
 RUN npm install 
 COPY . /app/
-EXPOSE 4200
+EXPOSE 4400
 CMD ["npm", "run", "start"]
 
-#jsut a test
+#jsut a testP
